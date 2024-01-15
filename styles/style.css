@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    direction: rtl;
+  }
+  
+  body {
+    font-family: "Vazirmatn", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    padding: 1rem 3rem;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-login {
+    border: 1px solid #02387d;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    background: #02387d;
+  }
+  .header-login a {
+    color: #fff;
+  }
+  .header-search {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    border: 2px solid #02387d;
+    border-radius: 4rem;
+    padding: 0.5rem 3rem;
+  }
+  .header-search-input {
+    width: 100%;
+  }
+  .header-search-input input {
+    border: none;
+    width: 100%;
+  }
+  .header-search-input input:focus {
+    outline: none;
+  }
+  .header-search-button button {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+  }
+  .header-line {
+    height: 2px;
+    background: rgb(224, 224, 224);
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 65vh;
+  }
+  .main-inner-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .main-inner-holder-search{
+    display: inline;
+  }
+  .main-inner-holder-search input {
+    border: 2px solid #02387d;
+    border-radius: 0.4rem 2rem 2rem 0.4rem;
+    padding: 0.5rem 2rem;
+  }
+  .main-inner-holder-button{
+    display: inline;
+  }
+  .main-inner-holder-button button {
+    border: 1px solid #02387d;
+    border-radius: 2rem 0.4rem 0.4rem 2rem;
+    padding: 0.55rem 1rem;
+    /* margin-right: 0.5rem; */
+    background: #02387d;
+    color: #fff;
+    transition: all 1s ease;
+    font-family: "Vazirmatn", sans-serif;
+  }
+  .main-inner-holder-button button:hover {
+    border: 1px solid #333;
+    background: #333;
+  }
+  
+  .footer {
+    background: rgb(224, 224, 224);
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-links a {
+    padding-left: 1rem;
+    color: #333;
+  }
+  .footer-copy-right {
+    color: #333;
+  }/*# sourceMappingURL=style.css.map */
